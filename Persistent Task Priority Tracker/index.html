@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persistent Task Priority Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Task Priority Tracker</h2>
+
+        <div class="form">
+            <input type="text" id="task-input" placeholder="Enter task name">
+            <select id="priority-select">
+                <option value="High">High</option>
+                <option value="Medium" selected>Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            <button id="add-btn">Add Task</button>
+        </div>
+
+        <ul id="task-list"></ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

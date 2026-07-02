@@ -1,0 +1,47 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f0f4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    width: 300px;
+    transition: all 0.4s ease;
+  }
+  
+  .avatar {
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+  }
+  
+  .name {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.4rem;
+    color: #222;
+  }
+  
+  .bio {
+    color: #555;
+    font-size: 0.95rem;
+  }
+  
+  .theme {
+    margin-top: 1rem;
+    background: #007bff;
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    display: inline-block;
+  }
+  
