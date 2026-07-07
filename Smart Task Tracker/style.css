@@ -1,0 +1,107 @@
+body{
+    background-color: yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: black;
+    display: flex;
+}
+
+.app{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+h1{
+    color:rebeccapurple;
+    text-align: center;
+}
+
+.subtitle{
+    color:purple;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+form{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+input, select, button{
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+button{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s;
+    border: none;
+}
+
+button:hover{
+    background-color: lightgreen;
+}
+
+.message{
+    color: red;
+    text-align: center;
+    min-height: 1.2rem;
+    font-weight: bold;
+}
+
+.filter
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.task-list
+{
+    list-style: none;
+    padding: 0;
+}
+
+.task{
+    background-color: tan;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+.task.done{
+   background:blue;
+   text-decoration: line-through;
+}
+
+
+.task button{
+   background: none;
+   cursor: pointer;
+   border: none;
+   font-size: 1rem;
+}
+
+.task button:hover{
+    opacity: 0.8;
+}
+

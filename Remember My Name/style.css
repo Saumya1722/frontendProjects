@@ -1,0 +1,36 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container
+{
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 6px;
+    width:400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    width: 80%;
+}
+
+button{
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    
+}

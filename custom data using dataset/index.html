@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    <p>Click any "Add to Cart" button to see how JavaScript retrieves the unique ID and price stored directly in the HTML.</p>
+    <section id="products">
+        <div class="product-card">
+            <h3>T-shirt</h3>
+            <p>Cotton Comfy tee.</p>
+            <button class="add-to-cart" data-product-id="A101"
+            data-product-price="150.00">Add to cart</button>
+        </div>
+        <div class="product-card">
+            <h3>Trousers</h3>
+            <p>Cotton Comfy pants.</p>
+            <button class="add-to-cart" data-product-id="B101"
+            data-product-price="300.00">Add to cart</button>
+        </div>
+    </section>
+
+    <p id="click-message">Click an Add to cart button!</p>
+
+    <script src="index.js"></script>
+</body>
+</html>
